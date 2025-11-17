@@ -282,7 +282,7 @@ class Client {
 
         this.core = Baileys.default({
             ...(this.WAVersion ? {
-                version: WAVersion
+                version: this.WAVersion
             } : {}),
             browser: this.browser,
             logger: this.logger,
